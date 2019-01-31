@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>My Twittter Page</title>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  			<div class="container">
+			  <div class="collapse navbar-collapse">
+			    <ul class="navbar-nav mr-auto">
+			      <li class="nav-item">
+			        <a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#"><i class="fas fa-bolt"></i> Moments</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#"><i class="fas fa-bell"></i> Notifications</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Messages</a>
+			      </li>
+			    
+			    </ul>
+			    <a class="navbar-brand" href="#"><i class="fab fa-twitter"></i></a>
+			    <form class="form-inline my-2 my-lg-0">
+			      <input class="form-control mr-sm-2" id="search" type="search" placeholder="Search Twitter" aria-label="Search">
+			      <a class="btn btn-primary tweet-button" href="#">Tweet</a>
+			    </form>
+			  </div>
+			</div>
+		</nav>
+		<header>
+			<div id="cover-photo-wrapper">
+				<img src="dolphin-fish.jpg" alt="Cover Image Dolphin">
+
+			</div>
+			<div id="profile-photo-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="col-4">
+							<img src="macho-man.jpg" id="profile-photo" alt="Profile Photo - Macho Man">
+						</div>
+						<div class="col-6">
+							<a href="#" class="profile-stats">Tweets<span>320</span></a>
+							<a href="#" class="profile-stats">Following<span>600</span></a>
+							<a href="#" class="profile-stats">Followers<span>900</span></a>
+							<a href="#" class="profile-stats">Likes<span>1000</span></a>
+						</div>
+						<div class="col-2">
+							<button type="button" class="btn btn-outline-primary" id="follow-button" href="#">Follow</button>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</header>
+
+		<div class="container"> 
+			<div class="row"> 
+				<div class="col-4" id="profile"> 
+					<hgroup> 
+						<a href="#"><h1>Randy Savage <i class="fa fa-check-circle" aria-hidden="true"></i></h1></a>
+						<a href="#"><h2>@MachoMan</h2></a>
+					</hgroup>
+					<p>Hulkamnania is like a single grain of sand in the Sahara desert that is Macho Madness</p>
+					<span><i class="fa fa-map-marker"></i> Columbus Ohio</span>
+					<span><i class="fa fa-link"></i> <a href="#">machoman.com</a></span>
+					<span><i class="fa fa-calendar"></i> Joined March 2006</span>
+					 <a class="btn btn-primary tweet-button" href="#">Tweet to Randy Savage</a>
+					 <span><i class="fa fa-user"></i> <a href="#">99 Followers you know</a></span>
+					 <div id="follower-profile-photos">
+					 	<img src="http:via.placeholder.com/50x50" alt="Follower Profile Photo">
+					 	<img src="http:via.placeholder.com/50x50" alt="Follower Profile Photo">
+					 	<img src="http:via.placeholder.com/50x50" alt="Follower Profile Photo">
+					 	<img src="http:via.placeholder.com/50x50" alt="Follower Profile Photo">
+					 	<img src="http:via.placeholder.com/50x50" alt="Follower Profile Photo">
+					 	<br>
+					 	<img src="http:via.placeholder.com/50x50" alt="Follower Profile Photo">
+					 	<img src="http:via.placeholder.com/50x50" alt="Follower Profile Photo">
+					 	<img src="http:via.placeholder.com/50x50" alt="Follower Profile Photo">
+					 	<img src="http:via.placeholder.com/50x50" alt="Follower Profile Photo">
+					 	<img src="http:via.placeholder.com/50x50" alt="Follower Profile Photo">
+					 </div>
+					 <span><i class="fa fa-image"></i> <a href="#">100 Photos and videos</a></span>
+					 <div id="photos-and-videos">
+					 	<img src="http:placekitten.com/200/300" alt="tweeted photo">
+					 	<img src="http:placekitten.com/200/300" alt="tweeted photo">
+					 	<img src="http:placekitten.com/200/300" alt="tweeted photo">
+					 	<br>
+					 	<img src="http:placekitten.com/200/300" alt="tweeted photo">
+					 	<img src="http:placekitten.com/200/300" alt="tweeted photo">
+					 	<img src="http:placekitten.com/200/300" alt="tweeted photo">
+					 	
+					 </div>
+				</div>
+				<div class="col-8" id="tweets"> 
+					<nav class="nav">
+					  <a class="nav-link active" href="#">Tweets</a>
+					  <a class="nav-link" href="#">Tweets &amp; replies</a>
+					  <a class="nav-link" href="#">Media</a>
+					</nav>
+					<article class="container">
+						<div class="row no-gutters">
+							<div class="col-1">
+								<img src="macho-man.jpg" class="profile-thumbnail" alt="Profile Photo- Macho Man" />
+							</div>
+							<div class="col-11 tweet-body">
+								<a href="#" class="tweet-username"><span class="username-name">Randy Savage</span> <i class="fa fa-check-circle"></i> <span class="username-handle">@MachoMan</span></a>
+								<p>Hulkamania is like a single grain of sand in the Sahara desert that is Macho Madness</p>
+								<nav>
+									<a href="#" class="comments"><i class="far fa-comment"></i> 230</a>
+									<a href="#" class="retweets"><i class="fa fa-retweet"></i> 620</a>
+									<a href="#" class="hearts"> <i class="far fa-heart"></i> 980</a>
+									<a href="#" class="email"> <i class="far fa-envelope"></i></a>
+								</nav>
+							</div>
+						</div>
+					</article>
+
+					<article class="container">
+						<div class="row no-gutters">
+							<div class="col-1">
+								<img src="macho-man.jpg" class="profile-thumbnail" alt="Profile Photo- Macho Man" />
+							</div>
+							<div class="col-11 tweet-body">
+								<a href="#" class="tweet-username"><span class="username-name">Randy Savage</span> <i class="fa fa-check-circle"></i> <span class="username-handle">@MachoMan</span></a>
+								<p>I'm the tower of power, too sweet to be sour. I'm funky like a monkey. Sky's the limit and space is the place!</p>
+								<img src="macho-hogan.jpg" align="Me and Hulk" />
+								<nav>
+									<a href="#" class="comments"><i class="far fa-comment"></i> 230</a>
+									<a href="#" class="retweets"><i class="fa fa-retweet"></i> 620</a>
+									<a href="#" class="hearts"> <i class="far fa-heart"></i> 980</a>
+									<a href="#" class="email"> <i class="far fa-envelope"></i></a>
+								</nav>
+							</div>
+						</div>
+					</article>
+
+					<article class="container">
+						<div class="row no-gutters">
+							<div class="col-1">
+								<img src="macho-man.jpg" class="profile-thumbnail" alt="Profile Photo- Macho Man" />
+							</div>
+							<div class="col-11 tweet-body">
+								<a href="#" class="tweet-username"><span class="username-name">Randy Savage</span> <i class="fa fa-check-circle"></i> <span class="username-handle">@MachoMan</span></a>
+								<p>From wrestling to my hip-hop thing, I've just been able to do so much and meet so many crazy characters.</p>
+								<nav>
+									<a href="#" class="comments"><i class="far fa-comment"></i> 230</a>
+									<a href="#" class="retweets"><i class="fa fa-retweet"></i> 620</a>
+									<a href="#" class="hearts"> <i class="far fa-heart"></i> 980</a>
+									<a href="#" class="email"> <i class="far fa-envelope"></i></a>
+								</nav>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>
